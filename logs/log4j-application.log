@@ -1,0 +1,310 @@
+2015-09-15 15:26:18 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+2015-09-15 15:26:18 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2015-09-15 15:26:18 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {s}->https://httpsms.mtt.ru:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2015-09-15 15:26:18 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 0][route: {s}->https://httpsms.mtt.ru:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2015-09-15 15:26:18 DEBUG MainClientExec:234 - Opening connection {s}->https://httpsms.mtt.ru:443
+2015-09-15 15:26:18 DEBUG DefaultHttpClientConnectionOperator:131 - Connecting to httpsms.mtt.ru/95.169.99.104:443
+2015-09-15 15:26:18 DEBUG SSLConnectionSocketFactory:335 - Connecting socket to httpsms.mtt.ru/95.169.99.104:443 with timeout 0
+2015-09-15 15:26:19 DEBUG SSLConnectionSocketFactory:388 - Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
+2015-09-15 15:26:19 DEBUG SSLConnectionSocketFactory:389 - Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_RSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_DSS_WITH_3DES_EDE_CBC_SHA, TLS_ECDHE_ECDSA_WITH_RC4_128_SHA, TLS_ECDHE_RSA_WITH_RC4_128_SHA, SSL_RSA_WITH_RC4_128_SHA, TLS_ECDH_ECDSA_WITH_RC4_128_SHA, TLS_ECDH_RSA_WITH_RC4_128_SHA, SSL_RSA_WITH_RC4_128_MD5, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+2015-09-15 15:26:19 DEBUG SSLConnectionSocketFactory:393 - Starting handshake
+2015-09-15 15:26:19 DEBUG SSLConnectionSocketFactory:423 - Secure session established
+2015-09-15 15:26:19 DEBUG SSLConnectionSocketFactory:424 -  negotiated protocol: TLSv1.2
+2015-09-15 15:26:19 DEBUG SSLConnectionSocketFactory:425 -  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
+2015-09-15 15:26:19 DEBUG SSLConnectionSocketFactory:433 -  peer principal: CN=*.mtt.ru, O=OJSC MULTIREGIONAL TRANSITTELECOM, L=Moscow, ST=Moscow, C=RU
+2015-09-15 15:26:19 DEBUG SSLConnectionSocketFactory:442 -  peer alternative names: [*.mtt.ru]
+2015-09-15 15:26:19 DEBUG SSLConnectionSocketFactory:446 -  issuer principal: CN=Thawte SSL CA, O="Thawte, Inc.", C=US
+2015-09-15 15:26:19 DEBUG DefaultHttpClientConnectionOperator:138 - Connection established 192.168.175.28:63777<->95.169.99.104:443
+2015-09-15 15:26:19 DEBUG MainClientExec:255 - Executing request GET /send?password=leVjicPE&text=%D0%94%D0%B5%D1%80%D0%B8%D0%B2%D0%B0%D1%82%D0%B8%D0%B2%2C+%D0%BF%D1%80%D0%B5%D0%B7%D0%B5%D1%80%D0%B2%D0%B0%D1%82%D0%B8%D0%B2%2C+%D0%BF%D1%80%D0%B5%D0%B4%D0%BE%D1%82%D0%B2%D1%80%D0%B0%D1%82%D0%B8%D0%B2&login=0FFCeK6L&msisdn=79587154240&shortcode=Test97&operation=send HTTP/1.1
+2015-09-15 15:26:19 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+2015-09-15 15:26:19 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2015-09-15 15:26:19 DEBUG headers:124 - http-outgoing-0 >> GET /send?password=leVjicPE&text=%D0%94%D0%B5%D1%80%D0%B8%D0%B2%D0%B0%D1%82%D0%B8%D0%B2%2C+%D0%BF%D1%80%D0%B5%D0%B7%D0%B5%D1%80%D0%B2%D0%B0%D1%82%D0%B8%D0%B2%2C+%D0%BF%D1%80%D0%B5%D0%B4%D0%BE%D1%82%D0%B2%D1%80%D0%B0%D1%82%D0%B8%D0%B2&login=0FFCeK6L&msisdn=79587154240&shortcode=Test97&operation=send HTTP/1.1
+2015-09-15 15:26:19 DEBUG headers:127 - http-outgoing-0 >> Connection: keep-alive
+2015-09-15 15:26:19 DEBUG headers:127 - http-outgoing-0 >> Accept-Language: en-US,en;q=0.5
+2015-09-15 15:26:19 DEBUG headers:127 - http-outgoing-0 >> Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2015-09-15 15:26:19 DEBUG headers:127 - http-outgoing-0 >> User-Agent: Mozilla/5.0
+2015-09-15 15:26:19 DEBUG headers:127 - http-outgoing-0 >> Host: httpsms.mtt.ru
+2015-09-15 15:26:19 DEBUG headers:127 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2015-09-15 15:26:19 DEBUG wire:72 - http-outgoing-0 >> "GET /send?password=leVjicPE&text=%D0%94%D0%B5%D1%80%D0%B8%D0%B2%D0%B0%D1%82%D0%B8%D0%B2%2C+%D0%BF%D1%80%D0%B5%D0%B7%D0%B5%D1%80%D0%B2%D0%B0%D1%82%D0%B8%D0%B2%2C+%D0%BF%D1%80%D0%B5%D0%B4%D0%BE%D1%82%D0%B2%D1%80%D0%B0%D1%82%D0%B8%D0%B2&login=0FFCeK6L&msisdn=79587154240&shortcode=Test97&operation=send HTTP/1.1[\r][\n]"
+2015-09-15 15:26:19 DEBUG wire:72 - http-outgoing-0 >> "Connection: keep-alive[\r][\n]"
+2015-09-15 15:26:19 DEBUG wire:72 - http-outgoing-0 >> "Accept-Language: en-US,en;q=0.5[\r][\n]"
+2015-09-15 15:26:19 DEBUG wire:72 - http-outgoing-0 >> "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8[\r][\n]"
+2015-09-15 15:26:19 DEBUG wire:72 - http-outgoing-0 >> "User-Agent: Mozilla/5.0[\r][\n]"
+2015-09-15 15:26:19 DEBUG wire:72 - http-outgoing-0 >> "Host: httpsms.mtt.ru[\r][\n]"
+2015-09-15 15:26:19 DEBUG wire:72 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2015-09-15 15:26:19 DEBUG wire:72 - http-outgoing-0 >> "[\r][\n]"
+2015-09-15 15:26:19 DEBUG wire:72 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2015-09-15 15:26:19 DEBUG wire:72 - http-outgoing-0 << "Date: Tue, 15 Sep 2015 12:26:18 GMT[\r][\n]"
+2015-09-15 15:26:19 DEBUG wire:72 - http-outgoing-0 << "Content-Length: 13[\r][\n]"
+2015-09-15 15:26:19 DEBUG wire:72 - http-outgoing-0 << "Content-Type: text/plain; charset=UTF-8[\r][\n]"
+2015-09-15 15:26:19 DEBUG wire:72 - http-outgoing-0 << "Connection: close[\r][\n]"
+2015-09-15 15:26:19 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+2015-09-15 15:26:19 DEBUG headers:113 - http-outgoing-0 << HTTP/1.1 200 OK
+2015-09-15 15:26:19 DEBUG headers:116 - http-outgoing-0 << Date: Tue, 15 Sep 2015 12:26:18 GMT
+2015-09-15 15:26:19 DEBUG headers:116 - http-outgoing-0 << Content-Length: 13
+2015-09-15 15:26:19 DEBUG headers:116 - http-outgoing-0 << Content-Type: text/plain; charset=UTF-8
+2015-09-15 15:26:19 DEBUG headers:116 - http-outgoing-0 << Connection: close
+2015-09-15 15:26:19 DEBUG wire:86 - http-outgoing-0 << "1442319978268"
+2015-09-15 15:26:19 DEBUG DefaultManagedHttpClientConnection:87 - http-outgoing-0: Shutdown connection
+2015-09-15 15:26:19 DEBUG MainClientExec:128 - Connection discarded
+2015-09-15 15:26:19 DEBUG DefaultManagedHttpClientConnection:79 - http-outgoing-0: Close connection
+2015-09-15 15:26:19 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 0][route: {s}->https://httpsms.mtt.ru:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2015-09-15 15:26:19 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+2015-09-15 15:26:19 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2015-09-15 15:26:19 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {s}->https://httpsms.mtt.ru:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2015-09-15 15:26:19 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 1][route: {s}->https://httpsms.mtt.ru:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2015-09-15 15:26:19 DEBUG MainClientExec:234 - Opening connection {s}->https://httpsms.mtt.ru:443
+2015-09-15 15:26:19 DEBUG DefaultHttpClientConnectionOperator:131 - Connecting to httpsms.mtt.ru/95.169.99.104:443
+2015-09-15 15:26:19 DEBUG SSLConnectionSocketFactory:335 - Connecting socket to httpsms.mtt.ru/95.169.99.104:443 with timeout 0
+2015-09-15 15:26:19 DEBUG PoolingHttpClientConnectionManager:388 - Connection manager is shutting down
+2015-09-15 15:26:19 DEBUG PoolingHttpClientConnectionManager:394 - Connection manager shut down
+2015-09-15 15:26:19 DEBUG SSLConnectionSocketFactory:388 - Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
+2015-09-15 15:26:19 DEBUG SSLConnectionSocketFactory:389 - Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_RSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_DSS_WITH_3DES_EDE_CBC_SHA, TLS_ECDHE_ECDSA_WITH_RC4_128_SHA, TLS_ECDHE_RSA_WITH_RC4_128_SHA, SSL_RSA_WITH_RC4_128_SHA, TLS_ECDH_ECDSA_WITH_RC4_128_SHA, TLS_ECDH_RSA_WITH_RC4_128_SHA, SSL_RSA_WITH_RC4_128_MD5, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+2015-09-15 15:26:19 DEBUG SSLConnectionSocketFactory:393 - Starting handshake
+2015-09-15 15:26:19 DEBUG SSLConnectionSocketFactory:423 - Secure session established
+2015-09-15 15:26:19 DEBUG SSLConnectionSocketFactory:424 -  negotiated protocol: TLSv1.2
+2015-09-15 15:26:19 DEBUG SSLConnectionSocketFactory:425 -  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
+2015-09-15 15:26:19 DEBUG SSLConnectionSocketFactory:433 -  peer principal: CN=*.mtt.ru, O=OJSC MULTIREGIONAL TRANSITTELECOM, L=Moscow, ST=Moscow, C=RU
+2015-09-15 15:26:19 DEBUG SSLConnectionSocketFactory:442 -  peer alternative names: [*.mtt.ru]
+2015-09-15 15:26:19 DEBUG SSLConnectionSocketFactory:446 -  issuer principal: CN=Thawte SSL CA, O="Thawte, Inc.", C=US
+2015-09-15 15:26:19 DEBUG DefaultHttpClientConnectionOperator:138 - Connection established 192.168.175.28:63778<->95.169.99.104:443
+2015-09-15 15:26:19 DEBUG MainClientExec:255 - Executing request GET /send?password=leVjicPE&id=1442319978268&login=0FFCeK6L&operation=status HTTP/1.1
+2015-09-15 15:26:19 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+2015-09-15 15:26:19 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2015-09-15 15:26:19 DEBUG headers:124 - http-outgoing-1 >> GET /send?password=leVjicPE&id=1442319978268&login=0FFCeK6L&operation=status HTTP/1.1
+2015-09-15 15:26:19 DEBUG headers:127 - http-outgoing-1 >> Connection: keep-alive
+2015-09-15 15:26:19 DEBUG headers:127 - http-outgoing-1 >> Accept-Language: en-US,en;q=0.5
+2015-09-15 15:26:19 DEBUG headers:127 - http-outgoing-1 >> Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2015-09-15 15:26:19 DEBUG headers:127 - http-outgoing-1 >> User-Agent: Mozilla/5.0
+2015-09-15 15:26:19 DEBUG headers:127 - http-outgoing-1 >> Host: httpsms.mtt.ru
+2015-09-15 15:26:19 DEBUG headers:127 - http-outgoing-1 >> Accept-Encoding: gzip,deflate
+2015-09-15 15:26:19 DEBUG wire:72 - http-outgoing-1 >> "GET /send?password=leVjicPE&id=1442319978268&login=0FFCeK6L&operation=status HTTP/1.1[\r][\n]"
+2015-09-15 15:26:19 DEBUG wire:72 - http-outgoing-1 >> "Connection: keep-alive[\r][\n]"
+2015-09-15 15:26:19 DEBUG wire:72 - http-outgoing-1 >> "Accept-Language: en-US,en;q=0.5[\r][\n]"
+2015-09-15 15:26:19 DEBUG wire:72 - http-outgoing-1 >> "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8[\r][\n]"
+2015-09-15 15:26:19 DEBUG wire:72 - http-outgoing-1 >> "User-Agent: Mozilla/5.0[\r][\n]"
+2015-09-15 15:26:19 DEBUG wire:72 - http-outgoing-1 >> "Host: httpsms.mtt.ru[\r][\n]"
+2015-09-15 15:26:19 DEBUG wire:72 - http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2015-09-15 15:26:19 DEBUG wire:72 - http-outgoing-1 >> "[\r][\n]"
+2015-09-15 15:26:19 DEBUG wire:72 - http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+2015-09-15 15:26:19 DEBUG wire:72 - http-outgoing-1 << "Date: Tue, 15 Sep 2015 12:26:18 GMT[\r][\n]"
+2015-09-15 15:26:19 DEBUG wire:72 - http-outgoing-1 << "Content-Length: 10[\r][\n]"
+2015-09-15 15:26:19 DEBUG wire:72 - http-outgoing-1 << "Content-Type: text/plain; charset=UTF-8[\r][\n]"
+2015-09-15 15:26:19 DEBUG wire:72 - http-outgoing-1 << "Connection: close[\r][\n]"
+2015-09-15 15:26:19 DEBUG wire:72 - http-outgoing-1 << "[\r][\n]"
+2015-09-15 15:26:19 DEBUG headers:113 - http-outgoing-1 << HTTP/1.1 200 OK
+2015-09-15 15:26:19 DEBUG headers:116 - http-outgoing-1 << Date: Tue, 15 Sep 2015 12:26:18 GMT
+2015-09-15 15:26:19 DEBUG headers:116 - http-outgoing-1 << Content-Length: 10
+2015-09-15 15:26:19 DEBUG headers:116 - http-outgoing-1 << Content-Type: text/plain; charset=UTF-8
+2015-09-15 15:26:19 DEBUG headers:116 - http-outgoing-1 << Connection: close
+2015-09-15 15:26:19 DEBUG wire:86 - http-outgoing-1 << "invalid ID"
+2015-09-15 15:26:19 DEBUG DefaultManagedHttpClientConnection:87 - http-outgoing-1: Shutdown connection
+2015-09-15 15:26:19 DEBUG MainClientExec:128 - Connection discarded
+2015-09-15 15:26:19 DEBUG DefaultManagedHttpClientConnection:79 - http-outgoing-1: Close connection
+2015-09-15 15:26:19 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 1][route: {s}->https://httpsms.mtt.ru:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2015-09-15 15:26:24 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+2015-09-15 15:26:24 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2015-09-15 15:26:24 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {s}->https://httpsms.mtt.ru:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2015-09-15 15:26:24 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 2][route: {s}->https://httpsms.mtt.ru:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2015-09-15 15:26:24 DEBUG MainClientExec:234 - Opening connection {s}->https://httpsms.mtt.ru:443
+2015-09-15 15:26:24 DEBUG DefaultHttpClientConnectionOperator:131 - Connecting to httpsms.mtt.ru/95.169.99.104:443
+2015-09-15 15:26:24 DEBUG SSLConnectionSocketFactory:335 - Connecting socket to httpsms.mtt.ru/95.169.99.104:443 with timeout 0
+2015-09-15 15:26:24 DEBUG SSLConnectionSocketFactory:388 - Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
+2015-09-15 15:26:24 DEBUG SSLConnectionSocketFactory:389 - Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_RSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_DSS_WITH_3DES_EDE_CBC_SHA, TLS_ECDHE_ECDSA_WITH_RC4_128_SHA, TLS_ECDHE_RSA_WITH_RC4_128_SHA, SSL_RSA_WITH_RC4_128_SHA, TLS_ECDH_ECDSA_WITH_RC4_128_SHA, TLS_ECDH_RSA_WITH_RC4_128_SHA, SSL_RSA_WITH_RC4_128_MD5, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+2015-09-15 15:26:24 DEBUG SSLConnectionSocketFactory:393 - Starting handshake
+2015-09-15 15:26:24 DEBUG SSLConnectionSocketFactory:423 - Secure session established
+2015-09-15 15:26:24 DEBUG SSLConnectionSocketFactory:424 -  negotiated protocol: TLSv1.2
+2015-09-15 15:26:24 DEBUG SSLConnectionSocketFactory:425 -  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
+2015-09-15 15:26:24 DEBUG SSLConnectionSocketFactory:433 -  peer principal: CN=*.mtt.ru, O=OJSC MULTIREGIONAL TRANSITTELECOM, L=Moscow, ST=Moscow, C=RU
+2015-09-15 15:26:24 DEBUG SSLConnectionSocketFactory:442 -  peer alternative names: [*.mtt.ru]
+2015-09-15 15:26:24 DEBUG SSLConnectionSocketFactory:446 -  issuer principal: CN=Thawte SSL CA, O="Thawte, Inc.", C=US
+2015-09-15 15:26:24 DEBUG DefaultHttpClientConnectionOperator:138 - Connection established 192.168.175.28:63779<->95.169.99.104:443
+2015-09-15 15:26:24 DEBUG MainClientExec:255 - Executing request GET /send?password=leVjicPE&id=1442319978268&login=0FFCeK6L&operation=status HTTP/1.1
+2015-09-15 15:26:24 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+2015-09-15 15:26:24 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2015-09-15 15:26:24 DEBUG headers:124 - http-outgoing-2 >> GET /send?password=leVjicPE&id=1442319978268&login=0FFCeK6L&operation=status HTTP/1.1
+2015-09-15 15:26:24 DEBUG headers:127 - http-outgoing-2 >> Connection: keep-alive
+2015-09-15 15:26:24 DEBUG headers:127 - http-outgoing-2 >> Accept-Language: en-US,en;q=0.5
+2015-09-15 15:26:24 DEBUG headers:127 - http-outgoing-2 >> Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2015-09-15 15:26:24 DEBUG headers:127 - http-outgoing-2 >> User-Agent: Mozilla/5.0
+2015-09-15 15:26:24 DEBUG headers:127 - http-outgoing-2 >> Host: httpsms.mtt.ru
+2015-09-15 15:26:24 DEBUG headers:127 - http-outgoing-2 >> Accept-Encoding: gzip,deflate
+2015-09-15 15:26:24 DEBUG wire:72 - http-outgoing-2 >> "GET /send?password=leVjicPE&id=1442319978268&login=0FFCeK6L&operation=status HTTP/1.1[\r][\n]"
+2015-09-15 15:26:24 DEBUG wire:72 - http-outgoing-2 >> "Connection: keep-alive[\r][\n]"
+2015-09-15 15:26:24 DEBUG wire:72 - http-outgoing-2 >> "Accept-Language: en-US,en;q=0.5[\r][\n]"
+2015-09-15 15:26:24 DEBUG wire:72 - http-outgoing-2 >> "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8[\r][\n]"
+2015-09-15 15:26:24 DEBUG wire:72 - http-outgoing-2 >> "User-Agent: Mozilla/5.0[\r][\n]"
+2015-09-15 15:26:24 DEBUG wire:72 - http-outgoing-2 >> "Host: httpsms.mtt.ru[\r][\n]"
+2015-09-15 15:26:24 DEBUG wire:72 - http-outgoing-2 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2015-09-15 15:26:24 DEBUG wire:72 - http-outgoing-2 >> "[\r][\n]"
+2015-09-15 15:26:24 DEBUG wire:72 - http-outgoing-2 << "HTTP/1.1 200 OK[\r][\n]"
+2015-09-15 15:26:24 DEBUG wire:72 - http-outgoing-2 << "Date: Tue, 15 Sep 2015 12:26:23 GMT[\r][\n]"
+2015-09-15 15:26:24 DEBUG wire:72 - http-outgoing-2 << "Content-Length: 10[\r][\n]"
+2015-09-15 15:26:24 DEBUG wire:72 - http-outgoing-2 << "Content-Type: text/plain; charset=UTF-8[\r][\n]"
+2015-09-15 15:26:24 DEBUG wire:72 - http-outgoing-2 << "Connection: close[\r][\n]"
+2015-09-15 15:26:24 DEBUG wire:72 - http-outgoing-2 << "[\r][\n]"
+2015-09-15 15:26:24 DEBUG headers:113 - http-outgoing-2 << HTTP/1.1 200 OK
+2015-09-15 15:26:24 DEBUG headers:116 - http-outgoing-2 << Date: Tue, 15 Sep 2015 12:26:23 GMT
+2015-09-15 15:26:24 DEBUG headers:116 - http-outgoing-2 << Content-Length: 10
+2015-09-15 15:26:24 DEBUG headers:116 - http-outgoing-2 << Content-Type: text/plain; charset=UTF-8
+2015-09-15 15:26:24 DEBUG headers:116 - http-outgoing-2 << Connection: close
+2015-09-15 15:26:24 DEBUG wire:86 - http-outgoing-2 << "invalid ID"
+2015-09-15 15:26:24 DEBUG DefaultManagedHttpClientConnection:87 - http-outgoing-2: Shutdown connection
+2015-09-15 15:26:24 DEBUG MainClientExec:128 - Connection discarded
+2015-09-15 15:26:24 DEBUG DefaultManagedHttpClientConnection:79 - http-outgoing-2: Close connection
+2015-09-15 15:26:24 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 2][route: {s}->https://httpsms.mtt.ru:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2015-09-15 15:32:17 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+2015-09-15 15:32:17 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2015-09-15 15:32:17 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {s}->https://httpsms.mtt.ru:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2015-09-15 15:32:17 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 0][route: {s}->https://httpsms.mtt.ru:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2015-09-15 15:32:17 DEBUG MainClientExec:234 - Opening connection {s}->https://httpsms.mtt.ru:443
+2015-09-15 15:32:17 DEBUG DefaultHttpClientConnectionOperator:131 - Connecting to httpsms.mtt.ru/95.169.99.104:443
+2015-09-15 15:32:17 DEBUG SSLConnectionSocketFactory:335 - Connecting socket to httpsms.mtt.ru/95.169.99.104:443 with timeout 0
+2015-09-15 15:32:17 DEBUG SSLConnectionSocketFactory:388 - Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
+2015-09-15 15:32:17 DEBUG SSLConnectionSocketFactory:389 - Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_RSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_DSS_WITH_3DES_EDE_CBC_SHA, TLS_ECDHE_ECDSA_WITH_RC4_128_SHA, TLS_ECDHE_RSA_WITH_RC4_128_SHA, SSL_RSA_WITH_RC4_128_SHA, TLS_ECDH_ECDSA_WITH_RC4_128_SHA, TLS_ECDH_RSA_WITH_RC4_128_SHA, SSL_RSA_WITH_RC4_128_MD5, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+2015-09-15 15:32:17 DEBUG SSLConnectionSocketFactory:393 - Starting handshake
+2015-09-15 15:32:17 DEBUG SSLConnectionSocketFactory:423 - Secure session established
+2015-09-15 15:32:17 DEBUG SSLConnectionSocketFactory:424 -  negotiated protocol: TLSv1.2
+2015-09-15 15:32:17 DEBUG SSLConnectionSocketFactory:425 -  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
+2015-09-15 15:32:17 DEBUG SSLConnectionSocketFactory:433 -  peer principal: CN=*.mtt.ru, O=OJSC MULTIREGIONAL TRANSITTELECOM, L=Moscow, ST=Moscow, C=RU
+2015-09-15 15:32:17 DEBUG SSLConnectionSocketFactory:442 -  peer alternative names: [*.mtt.ru]
+2015-09-15 15:32:17 DEBUG SSLConnectionSocketFactory:446 -  issuer principal: CN=Thawte SSL CA, O="Thawte, Inc.", C=US
+2015-09-15 15:32:17 DEBUG DefaultHttpClientConnectionOperator:138 - Connection established 192.168.175.28:63785<->95.169.99.104:443
+2015-09-15 15:32:17 DEBUG MainClientExec:255 - Executing request GET /send?password=leVjicPE&text=%D0%94%D0%B5%D1%80%D0%B8%D0%B2%D0%B0%D1%82%D0%B8%D0%B2%2C+%D0%BF%D1%80%D0%B5%D0%B7%D0%B5%D1%80%D0%B2%D0%B0%D1%82%D0%B8%D0%B2%2C+%D0%BF%D1%80%D0%B5%D0%B4%D0%BE%D1%82%D0%B2%D1%80%D0%B0%D1%82%D0%B8%D0%B2&login=0FFCeK6L&msisdn=79587154240&shortcode=Test97&operation=send HTTP/1.1
+2015-09-15 15:32:17 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+2015-09-15 15:32:17 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2015-09-15 15:32:17 DEBUG headers:124 - http-outgoing-0 >> GET /send?password=leVjicPE&text=%D0%94%D0%B5%D1%80%D0%B8%D0%B2%D0%B0%D1%82%D0%B8%D0%B2%2C+%D0%BF%D1%80%D0%B5%D0%B7%D0%B5%D1%80%D0%B2%D0%B0%D1%82%D0%B8%D0%B2%2C+%D0%BF%D1%80%D0%B5%D0%B4%D0%BE%D1%82%D0%B2%D1%80%D0%B0%D1%82%D0%B8%D0%B2&login=0FFCeK6L&msisdn=79587154240&shortcode=Test97&operation=send HTTP/1.1
+2015-09-15 15:32:17 DEBUG headers:127 - http-outgoing-0 >> Connection: keep-alive
+2015-09-15 15:32:17 DEBUG headers:127 - http-outgoing-0 >> Accept-Language: en-US,en;q=0.5
+2015-09-15 15:32:17 DEBUG headers:127 - http-outgoing-0 >> Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2015-09-15 15:32:17 DEBUG headers:127 - http-outgoing-0 >> User-Agent: Mozilla/5.0
+2015-09-15 15:32:17 DEBUG headers:127 - http-outgoing-0 >> Host: httpsms.mtt.ru
+2015-09-15 15:32:17 DEBUG headers:127 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2015-09-15 15:32:17 DEBUG wire:72 - http-outgoing-0 >> "GET /send?password=leVjicPE&text=%D0%94%D0%B5%D1%80%D0%B8%D0%B2%D0%B0%D1%82%D0%B8%D0%B2%2C+%D0%BF%D1%80%D0%B5%D0%B7%D0%B5%D1%80%D0%B2%D0%B0%D1%82%D0%B8%D0%B2%2C+%D0%BF%D1%80%D0%B5%D0%B4%D0%BE%D1%82%D0%B2%D1%80%D0%B0%D1%82%D0%B8%D0%B2&login=0FFCeK6L&msisdn=79587154240&shortcode=Test97&operation=send HTTP/1.1[\r][\n]"
+2015-09-15 15:32:17 DEBUG wire:72 - http-outgoing-0 >> "Connection: keep-alive[\r][\n]"
+2015-09-15 15:32:17 DEBUG wire:72 - http-outgoing-0 >> "Accept-Language: en-US,en;q=0.5[\r][\n]"
+2015-09-15 15:32:17 DEBUG wire:72 - http-outgoing-0 >> "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8[\r][\n]"
+2015-09-15 15:32:17 DEBUG wire:72 - http-outgoing-0 >> "User-Agent: Mozilla/5.0[\r][\n]"
+2015-09-15 15:32:17 DEBUG wire:72 - http-outgoing-0 >> "Host: httpsms.mtt.ru[\r][\n]"
+2015-09-15 15:32:17 DEBUG wire:72 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2015-09-15 15:32:17 DEBUG wire:72 - http-outgoing-0 >> "[\r][\n]"
+2015-09-15 15:32:17 DEBUG wire:72 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2015-09-15 15:32:17 DEBUG wire:72 - http-outgoing-0 << "Date: Tue, 15 Sep 2015 12:32:17 GMT[\r][\n]"
+2015-09-15 15:32:17 DEBUG wire:72 - http-outgoing-0 << "Content-Length: 13[\r][\n]"
+2015-09-15 15:32:17 DEBUG wire:72 - http-outgoing-0 << "Content-Type: text/plain; charset=UTF-8[\r][\n]"
+2015-09-15 15:32:17 DEBUG wire:72 - http-outgoing-0 << "Connection: close[\r][\n]"
+2015-09-15 15:32:17 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+2015-09-15 15:32:17 DEBUG headers:113 - http-outgoing-0 << HTTP/1.1 200 OK
+2015-09-15 15:32:17 DEBUG headers:116 - http-outgoing-0 << Date: Tue, 15 Sep 2015 12:32:17 GMT
+2015-09-15 15:32:17 DEBUG headers:116 - http-outgoing-0 << Content-Length: 13
+2015-09-15 15:32:17 DEBUG headers:116 - http-outgoing-0 << Content-Type: text/plain; charset=UTF-8
+2015-09-15 15:32:17 DEBUG headers:116 - http-outgoing-0 << Connection: close
+2015-09-15 15:32:17 DEBUG wire:86 - http-outgoing-0 << "1442320337111"
+2015-09-15 15:32:17 DEBUG DefaultManagedHttpClientConnection:87 - http-outgoing-0: Shutdown connection
+2015-09-15 15:32:17 DEBUG MainClientExec:128 - Connection discarded
+2015-09-15 15:32:17 DEBUG DefaultManagedHttpClientConnection:79 - http-outgoing-0: Close connection
+2015-09-15 15:32:17 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 0][route: {s}->https://httpsms.mtt.ru:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2015-09-15 15:32:18 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+2015-09-15 15:32:18 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2015-09-15 15:32:18 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {s}->https://httpsms.mtt.ru:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2015-09-15 15:32:18 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 1][route: {s}->https://httpsms.mtt.ru:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2015-09-15 15:32:18 DEBUG MainClientExec:234 - Opening connection {s}->https://httpsms.mtt.ru:443
+2015-09-15 15:32:18 DEBUG DefaultHttpClientConnectionOperator:131 - Connecting to httpsms.mtt.ru/95.169.99.104:443
+2015-09-15 15:32:18 DEBUG SSLConnectionSocketFactory:335 - Connecting socket to httpsms.mtt.ru/95.169.99.104:443 with timeout 0
+2015-09-15 15:32:18 DEBUG SSLConnectionSocketFactory:388 - Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
+2015-09-15 15:32:18 DEBUG SSLConnectionSocketFactory:389 - Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_RSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_DSS_WITH_3DES_EDE_CBC_SHA, TLS_ECDHE_ECDSA_WITH_RC4_128_SHA, TLS_ECDHE_RSA_WITH_RC4_128_SHA, SSL_RSA_WITH_RC4_128_SHA, TLS_ECDH_ECDSA_WITH_RC4_128_SHA, TLS_ECDH_RSA_WITH_RC4_128_SHA, SSL_RSA_WITH_RC4_128_MD5, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+2015-09-15 15:32:18 DEBUG SSLConnectionSocketFactory:393 - Starting handshake
+2015-09-15 15:32:18 DEBUG PoolingHttpClientConnectionManager:388 - Connection manager is shutting down
+2015-09-15 15:32:18 DEBUG PoolingHttpClientConnectionManager:394 - Connection manager shut down
+2015-09-15 15:32:18 DEBUG SSLConnectionSocketFactory:423 - Secure session established
+2015-09-15 15:32:18 DEBUG SSLConnectionSocketFactory:424 -  negotiated protocol: TLSv1.2
+2015-09-15 15:32:18 DEBUG SSLConnectionSocketFactory:425 -  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
+2015-09-15 15:32:18 DEBUG SSLConnectionSocketFactory:433 -  peer principal: CN=*.mtt.ru, O=OJSC MULTIREGIONAL TRANSITTELECOM, L=Moscow, ST=Moscow, C=RU
+2015-09-15 15:32:18 DEBUG SSLConnectionSocketFactory:442 -  peer alternative names: [*.mtt.ru]
+2015-09-15 15:32:18 DEBUG SSLConnectionSocketFactory:446 -  issuer principal: CN=Thawte SSL CA, O="Thawte, Inc.", C=US
+2015-09-15 15:32:18 DEBUG DefaultHttpClientConnectionOperator:138 - Connection established 192.168.175.28:63786<->95.169.99.104:443
+2015-09-15 15:32:18 DEBUG MainClientExec:255 - Executing request GET /send?password=leVjicPE&id=1442320337111&login=0FFCeK6L&operation=status HTTP/1.1
+2015-09-15 15:32:18 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+2015-09-15 15:32:18 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2015-09-15 15:32:18 DEBUG headers:124 - http-outgoing-1 >> GET /send?password=leVjicPE&id=1442320337111&login=0FFCeK6L&operation=status HTTP/1.1
+2015-09-15 15:32:18 DEBUG headers:127 - http-outgoing-1 >> Connection: keep-alive
+2015-09-15 15:32:18 DEBUG headers:127 - http-outgoing-1 >> Accept-Language: en-US,en;q=0.5
+2015-09-15 15:32:18 DEBUG headers:127 - http-outgoing-1 >> Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2015-09-15 15:32:18 DEBUG headers:127 - http-outgoing-1 >> User-Agent: Mozilla/5.0
+2015-09-15 15:32:18 DEBUG headers:127 - http-outgoing-1 >> Host: httpsms.mtt.ru
+2015-09-15 15:32:18 DEBUG headers:127 - http-outgoing-1 >> Accept-Encoding: gzip,deflate
+2015-09-15 15:32:18 DEBUG wire:72 - http-outgoing-1 >> "GET /send?password=leVjicPE&id=1442320337111&login=0FFCeK6L&operation=status HTTP/1.1[\r][\n]"
+2015-09-15 15:32:18 DEBUG wire:72 - http-outgoing-1 >> "Connection: keep-alive[\r][\n]"
+2015-09-15 15:32:18 DEBUG wire:72 - http-outgoing-1 >> "Accept-Language: en-US,en;q=0.5[\r][\n]"
+2015-09-15 15:32:18 DEBUG wire:72 - http-outgoing-1 >> "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8[\r][\n]"
+2015-09-15 15:32:18 DEBUG wire:72 - http-outgoing-1 >> "User-Agent: Mozilla/5.0[\r][\n]"
+2015-09-15 15:32:18 DEBUG wire:72 - http-outgoing-1 >> "Host: httpsms.mtt.ru[\r][\n]"
+2015-09-15 15:32:18 DEBUG wire:72 - http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2015-09-15 15:32:18 DEBUG wire:72 - http-outgoing-1 >> "[\r][\n]"
+2015-09-15 15:32:18 DEBUG wire:72 - http-outgoing-1 << "HTTP/1.1 200 OK[\r][\n]"
+2015-09-15 15:32:18 DEBUG wire:72 - http-outgoing-1 << "Date: Tue, 15 Sep 2015 12:32:17 GMT[\r][\n]"
+2015-09-15 15:32:18 DEBUG wire:72 - http-outgoing-1 << "Content-Length: 10[\r][\n]"
+2015-09-15 15:32:18 DEBUG wire:72 - http-outgoing-1 << "Content-Type: text/plain; charset=UTF-8[\r][\n]"
+2015-09-15 15:32:18 DEBUG wire:72 - http-outgoing-1 << "Connection: close[\r][\n]"
+2015-09-15 15:32:18 DEBUG wire:72 - http-outgoing-1 << "[\r][\n]"
+2015-09-15 15:32:18 DEBUG headers:113 - http-outgoing-1 << HTTP/1.1 200 OK
+2015-09-15 15:32:18 DEBUG headers:116 - http-outgoing-1 << Date: Tue, 15 Sep 2015 12:32:17 GMT
+2015-09-15 15:32:18 DEBUG headers:116 - http-outgoing-1 << Content-Length: 10
+2015-09-15 15:32:18 DEBUG headers:116 - http-outgoing-1 << Content-Type: text/plain; charset=UTF-8
+2015-09-15 15:32:18 DEBUG headers:116 - http-outgoing-1 << Connection: close
+2015-09-15 15:32:18 DEBUG wire:86 - http-outgoing-1 << "invalid ID"
+2015-09-15 15:32:18 DEBUG DefaultManagedHttpClientConnection:87 - http-outgoing-1: Shutdown connection
+2015-09-15 15:32:18 DEBUG MainClientExec:128 - Connection discarded
+2015-09-15 15:32:18 DEBUG DefaultManagedHttpClientConnection:79 - http-outgoing-1: Close connection
+2015-09-15 15:32:18 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 1][route: {s}->https://httpsms.mtt.ru:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2015-09-15 15:32:23 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+2015-09-15 15:32:23 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2015-09-15 15:32:23 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {s}->https://httpsms.mtt.ru:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2015-09-15 15:32:23 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 2][route: {s}->https://httpsms.mtt.ru:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2015-09-15 15:32:23 DEBUG MainClientExec:234 - Opening connection {s}->https://httpsms.mtt.ru:443
+2015-09-15 15:32:23 DEBUG DefaultHttpClientConnectionOperator:131 - Connecting to httpsms.mtt.ru/95.169.99.104:443
+2015-09-15 15:32:23 DEBUG SSLConnectionSocketFactory:335 - Connecting socket to httpsms.mtt.ru/95.169.99.104:443 with timeout 0
+2015-09-15 15:32:23 DEBUG SSLConnectionSocketFactory:388 - Enabled protocols: [TLSv1, TLSv1.1, TLSv1.2]
+2015-09-15 15:32:23 DEBUG SSLConnectionSocketFactory:389 - Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_RSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_ECDSA_WITH_3DES_EDE_CBC_SHA, TLS_ECDH_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_RSA_WITH_3DES_EDE_CBC_SHA, SSL_DHE_DSS_WITH_3DES_EDE_CBC_SHA, TLS_ECDHE_ECDSA_WITH_RC4_128_SHA, TLS_ECDHE_RSA_WITH_RC4_128_SHA, SSL_RSA_WITH_RC4_128_SHA, TLS_ECDH_ECDSA_WITH_RC4_128_SHA, TLS_ECDH_RSA_WITH_RC4_128_SHA, SSL_RSA_WITH_RC4_128_MD5, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+2015-09-15 15:32:23 DEBUG SSLConnectionSocketFactory:393 - Starting handshake
+2015-09-15 15:32:23 DEBUG SSLConnectionSocketFactory:423 - Secure session established
+2015-09-15 15:32:23 DEBUG SSLConnectionSocketFactory:424 -  negotiated protocol: TLSv1.2
+2015-09-15 15:32:23 DEBUG SSLConnectionSocketFactory:425 -  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
+2015-09-15 15:32:23 DEBUG SSLConnectionSocketFactory:433 -  peer principal: CN=*.mtt.ru, O=OJSC MULTIREGIONAL TRANSITTELECOM, L=Moscow, ST=Moscow, C=RU
+2015-09-15 15:32:23 DEBUG SSLConnectionSocketFactory:442 -  peer alternative names: [*.mtt.ru]
+2015-09-15 15:32:23 DEBUG SSLConnectionSocketFactory:446 -  issuer principal: CN=Thawte SSL CA, O="Thawte, Inc.", C=US
+2015-09-15 15:32:23 DEBUG DefaultHttpClientConnectionOperator:138 - Connection established 192.168.175.28:63787<->95.169.99.104:443
+2015-09-15 15:32:23 DEBUG MainClientExec:255 - Executing request GET /send?password=leVjicPE&id=1442320337111&login=0FFCeK6L&operation=status HTTP/1.1
+2015-09-15 15:32:23 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+2015-09-15 15:32:23 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2015-09-15 15:32:23 DEBUG headers:124 - http-outgoing-2 >> GET /send?password=leVjicPE&id=1442320337111&login=0FFCeK6L&operation=status HTTP/1.1
+2015-09-15 15:32:23 DEBUG headers:127 - http-outgoing-2 >> Connection: keep-alive
+2015-09-15 15:32:23 DEBUG headers:127 - http-outgoing-2 >> Accept-Language: en-US,en;q=0.5
+2015-09-15 15:32:23 DEBUG headers:127 - http-outgoing-2 >> Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2015-09-15 15:32:23 DEBUG headers:127 - http-outgoing-2 >> User-Agent: Mozilla/5.0
+2015-09-15 15:32:23 DEBUG headers:127 - http-outgoing-2 >> Host: httpsms.mtt.ru
+2015-09-15 15:32:23 DEBUG headers:127 - http-outgoing-2 >> Accept-Encoding: gzip,deflate
+2015-09-15 15:32:23 DEBUG wire:72 - http-outgoing-2 >> "GET /send?password=leVjicPE&id=1442320337111&login=0FFCeK6L&operation=status HTTP/1.1[\r][\n]"
+2015-09-15 15:32:23 DEBUG wire:72 - http-outgoing-2 >> "Connection: keep-alive[\r][\n]"
+2015-09-15 15:32:23 DEBUG wire:72 - http-outgoing-2 >> "Accept-Language: en-US,en;q=0.5[\r][\n]"
+2015-09-15 15:32:23 DEBUG wire:72 - http-outgoing-2 >> "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8[\r][\n]"
+2015-09-15 15:32:23 DEBUG wire:72 - http-outgoing-2 >> "User-Agent: Mozilla/5.0[\r][\n]"
+2015-09-15 15:32:23 DEBUG wire:72 - http-outgoing-2 >> "Host: httpsms.mtt.ru[\r][\n]"
+2015-09-15 15:32:23 DEBUG wire:72 - http-outgoing-2 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2015-09-15 15:32:23 DEBUG wire:72 - http-outgoing-2 >> "[\r][\n]"
+2015-09-15 15:32:23 DEBUG wire:72 - http-outgoing-2 << "HTTP/1.1 200 OK[\r][\n]"
+2015-09-15 15:32:23 DEBUG wire:72 - http-outgoing-2 << "Date: Tue, 15 Sep 2015 12:32:22 GMT[\r][\n]"
+2015-09-15 15:32:23 DEBUG wire:72 - http-outgoing-2 << "Content-Length: 10[\r][\n]"
+2015-09-15 15:32:23 DEBUG wire:72 - http-outgoing-2 << "Content-Type: text/plain; charset=UTF-8[\r][\n]"
+2015-09-15 15:32:23 DEBUG wire:72 - http-outgoing-2 << "Connection: close[\r][\n]"
+2015-09-15 15:32:23 DEBUG wire:72 - http-outgoing-2 << "[\r][\n]"
+2015-09-15 15:32:23 DEBUG headers:113 - http-outgoing-2 << HTTP/1.1 200 OK
+2015-09-15 15:32:23 DEBUG headers:116 - http-outgoing-2 << Date: Tue, 15 Sep 2015 12:32:22 GMT
+2015-09-15 15:32:23 DEBUG headers:116 - http-outgoing-2 << Content-Length: 10
+2015-09-15 15:32:23 DEBUG headers:116 - http-outgoing-2 << Content-Type: text/plain; charset=UTF-8
+2015-09-15 15:32:23 DEBUG headers:116 - http-outgoing-2 << Connection: close
+2015-09-15 15:32:23 DEBUG wire:86 - http-outgoing-2 << "invalid ID"
+2015-09-15 15:32:23 DEBUG DefaultManagedHttpClientConnection:87 - http-outgoing-2: Shutdown connection
+2015-09-15 15:32:23 DEBUG MainClientExec:128 - Connection discarded
+2015-09-15 15:32:23 DEBUG DefaultManagedHttpClientConnection:79 - http-outgoing-2: Close connection
+2015-09-15 15:32:23 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 2][route: {s}->https://httpsms.mtt.ru:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
